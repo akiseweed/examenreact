@@ -1,4 +1,3 @@
-import React from 'react';
 import './css/Menu.css';
 
 const Menu = () => {
@@ -7,7 +6,7 @@ const Menu = () => {
       <ul>
         <li>Inicio</li>
         <li>Tours</li>
-        <li>Promocion</li>
+        <li>Promoción</li>
         <li>Galería</li>
         <li>Contacto</li>
       </ul>

@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './css/AdrenalinaPura.css';
 
-
 const AdrenalinaPura = () => {
+  const [currentImage, setCurrentImage] = useState(0);
+  const images =[
+      { src: "img/foto4.jpg", alt: "" },
+      { src: "img/banner2.jpg", alt: "" },
+      { src: "img/banner3.jpg", alt: "" },
+      { src: "img/banner4.jpg", alt: "" },
+    ];
+
   return (
     <div className="adrenalina-pura">
       <h2>Adrenalina Pura</h2>

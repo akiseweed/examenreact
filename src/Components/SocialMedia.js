@@ -1,14 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './css/SocialMedia.css';
 
 const SocialMedia = () => {
-  return (
-    <div className="social-media">
-      <img src="facebook.png" alt="Facebook" />
-      <img src="twitter.png" alt="Twitter" />
-      <img src="instagram.png" alt="Instagram" />
-    </div>
-  );
+    const [currentImage, setCurrentImage] = useState(0);
+    const images =[
+        { src: "img/facebook.jpg", alt: "" },
+        { src: "img/twitter.jpg", alt: "" },
+        { src: "img/instagram.jpg", alt: "" },
+        
+    ];
+
+    return (
+        <div>
+            {/* Aquí va el código JSX para mostrar las redes sociales */}
+        </div>
+    );
 };
 
 export default SocialMedia;
