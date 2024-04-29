@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import './Banner.css';
-import banner1 from '../img/banner1.jpg';
-import banner2 from '../img/banner2.jpg';
-import banner3 from '../img/banner3.jpg';  
-import banner4 from '../img/banner4.jpg';
 
 const Banner = () => {
   const [currentImage, setCurrentImage] = useState(0);
-  const images = ['/image', 'image2.jpg', 'image3.jpg'];
+  const images =[
+      { src: "img/banner1.jpg", alt: "bnnr1" },
+      { src: "img/banner2.jpg", alt: "bnnr2" },
+      { src: "img/banner3.jpg", alt: "bnnr3" },
+      { src: "img/banner4.jpg", alt: "bnnr4" },
+    ];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -20,7 +21,7 @@ const Banner = () => {
     <div className="banner">
       <img src={images[currentImage]} alt="Banner" />
     </div>
-  );
+  );        
 };
 
 export default Banner;

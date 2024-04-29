@@ -17,7 +17,7 @@ const AdrenalinaPura = () => {
         </div>
         <div className="equipment-item">
           <img src="elbow-pads.jpg" alt="Elbow pads" />
-          <p>Elbow Pads - Protects your elbows</p>
+          <p>Elbow Pads - Protects your elbows</p>  
         </div>
         <div className="equipment-item">
           <img src="gloves.jpg" alt="Gloves" />
