@@ -9,8 +9,12 @@ import './agencia.css';
 const Agencia = () => {
     return (
         <div>
-        <SocialMedia/>
-        <Menu/>
+            <Menu />
+            <FechaHora />
+            <Banner />
+            <SocialMedia />
+            <DeportesAccion />
+            <AdrenalinaPura />
         <h1 className="agencia-title">Agencia de Turismo el Condor</h1>
         </div>
     );
