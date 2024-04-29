@@ -1,5 +1,5 @@
 import React from 'react';
-import "./css/Menu.css"; // Asegúrate de usar punto y coma al finalizar la importación
+import './css/Menu.css';
 
 const Menu = () => {
   return (
