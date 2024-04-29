@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './FechaHora.css';
+import './css/FechaHora.css';
 
 const FechaHora = () => {
   const [date, setDate] = useState(new Date());

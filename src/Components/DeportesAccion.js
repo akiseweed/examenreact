@@ -1,5 +1,5 @@
 import React from 'react';
-import './DeportesAccion.css';
+import './css/DeportesAccion.css';
 import banner1 from '../img/banner1.jpg';
 import banner2 from '../img/banner2.jpg';
 import banner3 from '../img/banner3.jpg';  

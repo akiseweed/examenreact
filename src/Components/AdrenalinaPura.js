@@ -1,5 +1,5 @@
 import React from 'react';
-import './AdrenalinaPura.css';
+import '../css/AdrenalinaPura.css';
 
 
 const AdrenalinaPura = () => {

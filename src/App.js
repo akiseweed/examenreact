@@ -1,12 +1,13 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom'; // Importa Routes y Route si estás usando React Router
 import './App.css';
-import Menu from '/components/Menu';
-import Agencia from './components/Modulos/Agencia';
-import SocialMedia from '/components/SocialMedia';
-import Banner from '/components/Banner';
-import FechaHora from './components/FechaHora';
-import DeportesAccion from './components/DeportesAccion';
-import AdrenalinaPura from '/components/AdrenalinaPura';
+import Menu from './Components/Menu'; // Corrige la ruta de importación
+import Agencia from './Components/Modulos/Agencia'; // Corrige la ruta de importación
+import SocialMedia from './Components/SocialMedia'; // Corrige la ruta de importación
+import Banner from './Components/Banner'; // Corrige la ruta de importación
+import FechaHora from './Components/FechaHora'; // Corrige la ruta de importación
+import DeportesAccion from './Components/DeportesAccion'; // Corrige la ruta de importación
+import AdrenalinaPura from './Components/AdrenalinaPura'; // Corrige la ruta de importación
 
 function App() {
   return (
