@@ -1,0 +1,22 @@
+.deportes-accion {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .images-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .images-container img {
+    margin: 0 10px;
+    width: 200px;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .images-container img:hover {
+    transform: scale(1.1);
+  }
+  

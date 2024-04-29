@@ -1,0 +1,34 @@
+.adrenalina-pura {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .protection-equipment {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .equipment-item {
+    width: 200px;
+    transition: transform 0.3s ease;
+  }
+  
+  .equipment-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .equipment-item p {
+    margin-top: 10px;
+    display: none;
+  }
+  
+  .equipment-item:hover p {
+    display: block;
+  }
+  
+  .equipment-item:hover {
+    transform: scale(1.1);
+  }
+  
